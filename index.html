@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- ===== NAV ===== -->
+    <nav class="nav">
+    <span class="nav-logo">Bows-Tech</span>
+        <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Menú">&#9776;</button>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+    <div class="hero-tag">Disponible para trabajar</div>
+    <h1 class="hero-title">
+        Hola, soy<br />
+        <em>Brian</em>
+    </h1>
+    <p class="hero-sub">
+        Desarrollador Web · Apasionado por crear experiencias digitales que
+        importan
+    </p>
+    <div class="hero-cta">
+        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+        <a href="#contacto" class="btn btn-outline">Contáctame</a>
+    </div>
+    <div class="hero-scroll">↓</div>
+    </section>
+
+    <!-- ===== SOBRE MÍ ===== -->
+    <section class="section" id="sobre-mi">
+    <div class="container two-col">
+        <div class="about-text">
+        <span class="section-label">01 — Sobre mí</span>
+        <h2 class="section-title">Un poco sobre <em>quién soy</em></h2>
+        <p>
+            Soy un desarrollador web en formación, con pasión por construir
+            interfaces limpias y funcionales. Me encanta resolver problemas a
+            través del código y aprender algo nuevo cada día.
+        </p>
+        <p>
+            Cuando no estoy programando, me puedes encontrar explorando nuevas
+            tecnologías, jugando videojuegos o tomando café ☕.
+        </p>
+        <a href="cv.pdf" class="btn btn-outline" download>Descargar CV</a>
+        </div>
+        <div class="about-img-wrap">
+        <!-- Reemplaza con tu foto -->
+        <div class="about-img-placeholder">
+            <span>Tu foto aquí</span>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ===== PROYECTOS ===== -->
+    <section class="section section-dark" id="proyectos">
+    <div class="container">
+        <span class="section-label">02 — Proyectos</span>
+        <h2 class="section-title">Lo que he <em>construido</em></h2>
+        <div class="projects-grid">
+        <!-- Proyecto 1 -->
+        <article class="project-card">
+            <div class="project-img">
+            <span>Preview</span>
+            </div>
+            <div class="project-info">
+            <span class="project-tag">JavaScript</span>
+            <h3>To-Do App</h3>
+            <p>
+                Aplicación de tareas con almacenamiento local, filtros y
+                animaciones.
+            </p>
+            <div class="project-links">
+                <a href="#" target="_blank">Demo →</a>
+                <a href="#" target="_blank">GitHub</a>
+            </div>
+            </div>
+        </article>
+
+        <!-- Proyecto 2 -->
+        <article class="project-card">
+            <div class="project-img">
+            <span>Preview</span>
+            </div>
+            <div class="project-info">
+            <span class="project-tag">HTML · CSS</span>
+            <h3>Proyecto 2</h3>
+            <p>
+                Descripción breve del proyecto. Qué problema resuelve y qué
+                tecnologías usa.
+            </p>
+            <div class="project-links">
+                <a href="#" target="_blank">Demo →</a>
+                <a href="#" target="_blank">GitHub</a>
+            </div>
+            </div>
+        </article>
+
+        <!-- Proyecto 3 -->
+        <article class="project-card">
+            <div class="project-img">
+            <span>Preview</span>
+            </div>
+            <div class="project-info">
+            <span class="project-tag">React</span>
+            <h3>Proyecto 3</h3>
+            <p>
+                Descripción breve del proyecto. Qué problema resuelve y qué
+                tecnologías usa.
+            </p>
+            <div class="project-links">
+                <a href="#" target="_blank">Demo →</a>
+                <a href="#" target="_blank">GitHub</a>
+            </div>
+            </div>
+        </article>
+        </div>
+    </div>
+    </section>
+
+    <!-- ===== HABILIDADES ===== -->
+    <section class="section" id="habilidades">
+    <div class="container">
+        <span class="section-label">03 — Habilidades</span>
+        <h2 class="section-title">Mi <em>stack</em> tecnológico</h2>
+        <div class="skills-grid">
+        <div class="skill-item">HTML5</div>
+        <div class="skill-item">CSS3</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">React</div>
+        <div class="skill-item">Git</div>
+        <div class="skill-item">GitHub</div>
+        <div class="skill-item">Responsive Design</div>
+        <div class="skill-item">VS Code</div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section class="section section-dark" id="contacto">
+    <div class="container contact-wrap">
+        <span class="section-label">04 — Contacto</span>
+        <h2 class="section-title">¿Trabajamos <em>juntos</em>?</h2>
+        <p class="contact-sub">
+        Estoy disponible para proyectos freelance, prácticas o trabajo de
+        tiempo completo.
+        </p>
+        <a href="mailto:tu@email.com" class="btn btn-primary btn-lg"
+        >Envíame un email</a
+        >
+        <div class="social-links">
+        <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/tuusuario" target="_blank"
+            >LinkedIn</a
+        >
+        <a href="https://twitter.com/tuusuario" target="_blank"
+            >Twitter / X</a
+        >
+        </div>
+    </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+    <p>
+        Diseñado y construido por <strong>Tu Nombre</strong> ·
+        <span id="year"></span>
+    </p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
